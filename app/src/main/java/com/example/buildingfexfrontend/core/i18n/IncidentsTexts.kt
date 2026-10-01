@@ -1,0 +1,43 @@
+package com.example.buildingfexfrontend.core.i18n
+
+/**
+ * ES/EN texts for incidents (`inc.*`), including status labels.
+ * Feature-owned by incidents/presentation (IncidentsScreens, IncidentsViewModel).
+ */
+val IncidentsTexts: Map<String, TextPair> = mapOf(
+    "inc.status.open" to ("Abierta" to "Open"),
+    "inc.status.in-progress" to ("En progreso" to "In progress"),
+    "inc.status.resolved" to ("Resuelta" to "Resolved"),
+    "inc.noResident" to ("Sin residente" to "No resident"),
+    "inc.noProvider" to ("Sin proveedor asignado" to "No assigned provider"),
+    "inc.fab.add" to ("Nueva incidencia" to "New incident"),
+    "inc.admin.title" to ("Todas las incidencias" to "All incidents"),
+    "inc.admin.subtitle" to ("Revisa, asigna proveedores y actualiza el estado de las incidencias del edificio." to "Review, assign providers and update the status of the building's incidents."),
+    "inc.admin.empty" to ("Aún no hay incidencias registradas." to "No incidents registered yet."),
+    "inc.action.edit" to ("Editar" to "Edit"),
+    "inc.action.delete" to ("Eliminar" to "Delete"),
+    "inc.action.save" to ("Guardar" to "Save"),
+    "inc.action.saving" to ("Guardando…" to "Saving…"),
+    "inc.action.cancel" to ("Cancelar" to "Cancel"),
+    "inc.action.send" to ("Enviar incidencia" to "Send incident"),
+    "inc.action.sending" to ("Enviando…" to "Sending…"),
+    "inc.delete.title" to ("Eliminar incidencia" to "Delete incident"),
+    "inc.delete.message" to ("¿Eliminar esta incidencia? Esta acción no se puede deshacer." to "Delete this incident? This action cannot be undone."),
+    "inc.message.title" to ("Listo" to "Done"),
+    "inc.message.ack" to ("Entendido" to "Got it"),
+    "inc.editor.createTitle" to ("Nueva incidencia" to "New incident"),
+    "inc.editor.editTitle" to ("Editar incidencia" to "Edit incident"),
+    "inc.field.description" to ("Descripción" to "Description"),
+    "inc.field.descriptionPlaceholder" to ("Describe el problema…" to "Describe the problem…"),
+    "inc.field.status" to ("Estado" to "Status"),
+    "inc.field.provider" to ("Proveedor (opcional)" to "Provider (optional)"),
+    "inc.resident.title" to ("Mis incidencias" to "My incidents"),
+    "inc.resident.subtitle" to ("Revisa y reporta incidencias asociadas a tu unidad." to "Review and report incidents associated with your unit."),
+    "inc.resident.reportCard" to ("Reportar nueva incidencia" to "Report a new incident"),
+    "inc.resident.listCard" to ("Mis incidencias reportadas" to "My reported incidents"),
+    "inc.resident.empty" to ("No tienes incidencias registradas." to "You have no registered incidents."),
+    "inc.msg.saved" to ("Incidencia guardada." to "Incident saved."),
+    "inc.msg.deleted" to ("Incidencia eliminada." to "Incident deleted."),
+    "inc.msg.sent" to ("Incidencia enviada." to "Incident sent."),
+    "inc.msg.updated" to ("Incidencia actualizada." to "Incident updated."),
+)

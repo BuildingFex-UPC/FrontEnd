@@ -1,0 +1,39 @@
+package com.example.buildingfexfrontend.core.i18n
+
+/**
+ * ES/EN texts for the settings screen (`set.*`).
+ * Feature-owned by settings/presentation (SettingsScreen, SettingsViewModel).
+ */
+val SettingsTexts: Map<String, TextPair> = mapOf(
+    "set.title" to ("Ajustes" to "Settings"),
+    "set.subtitle" to ("Tu perfil y la suscripción del edificio." to "Your profile and the building's subscription."),
+    "set.profile.adminTitle" to ("Perfil del administrador" to "Administrator profile"),
+    "set.profile.title" to ("Mi perfil" to "My profile"),
+    "set.profile.loadFailed" to ("No se pudo cargar el perfil." to "The profile could not be loaded."),
+    "set.profile.name" to ("Nombre" to "Name"),
+    "set.profile.email" to ("Correo" to "Email"),
+    "set.profile.dni" to ("DNI" to "National ID"),
+    "set.profile.address" to ("Dirección" to "Address"),
+    "set.profile.company" to ("Empresa" to "Company"),
+    "set.profile.ruc" to ("RUC" to "Tax ID"),
+    "set.profile.department" to ("Departamento" to "Department"),
+    "set.profile.floor" to ("Piso" to "Floor"),
+    "set.plans.title" to ("Planes de suscripción" to "Subscription plans"),
+    "set.plans.residents" to ("Residentes: {current} / {limit}" to "Residents: {current} / {limit}"),
+    "set.plans.current" to ("Actual" to "Current"),
+    "set.plans.priceLine" to ("S/ {price} / mes · hasta {limit} departamentos" to "S/ {price} / mo · up to {limit} departments"),
+    "set.plans.processing" to ("Procesando…" to "Processing…"),
+    "set.plans.currentPlan" to ("Plan actual" to "Current plan"),
+    "set.plans.switchToFree" to ("Cambiar a Free" to "Switch to Free"),
+    "set.plans.choose" to ("Elegir {plan}" to "Choose {plan}"),
+    "set.session.title" to ("Sesión" to "Session"),
+    "set.session.logout" to ("Cerrar sesión" to "Log out"),
+    "set.message.ack" to ("Entendido" to "Got it"),
+    "set.msg.planFree" to ("Plan actualizado a Free." to "Plan updated to Free."),
+    "set.msg.planDemo" to ("Plan activado (modo demo)." to "Plan activated (demo mode)."),
+    "set.msg.checkoutOpened" to ("Se abrió Mercado Pago. Vuelve aquí para confirmar el pago." to "Mercado Pago opened. Come back here to confirm the payment."),
+    "set.error.checkoutStart" to ("No se pudo iniciar el pago." to "The payment could not be started."),
+    "set.msg.planActivated" to ("Plan activado." to "Plan activated."),
+    "set.msg.paymentPending" to ("Pago registrado; activación pendiente." to "Payment recorded; activation pending."),
+    "set.msg.paymentFailed" to ("El pago no se completó. Puedes intentarlo de nuevo." to "The payment was not completed. You can try again."),
+)
